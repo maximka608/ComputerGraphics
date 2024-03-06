@@ -1,0 +1,3 @@
+/Users/maksim/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles/OpenGL.dir
+/Users/maksim/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/maksim/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles/rebuild_cache.dir
