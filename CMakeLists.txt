@@ -11,6 +11,6 @@ find_package(GLUT REQUIRED)
 
 include_directories(${OPENGL_INCLUDE_DIRS}  ${GLUT_INCLUDE_DIRS})
 
-add_executable(OpenGL lab1.cpp lab2.cpp include/stb_image.h lab3.cpp include/json.hpp)
+add_executable(OpenGL lab1.cpp lab2.cpp include/stb_image.h lab3.cpp include/json.hpp rgr.cpp include/stb_image_write.h)
 target_link_libraries(OpenGL ${OPENGL_LIBRARIES} ${GLUT_LIBRARIES})
 

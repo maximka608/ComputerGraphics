@@ -70,6 +70,20 @@ build CMakeFiles/OpenGL.dir/lab3.cpp.o: CXX_COMPILER__OpenGL_Debug /Users/maksim
   OBJECT_DIR = CMakeFiles/OpenGL.dir
   OBJECT_FILE_DIR = CMakeFiles/OpenGL.dir
 
+build CMakeFiles/OpenGL.dir/lab4.cpp.o: CXX_COMPILER__OpenGL_Debug /Users/maksim/CLionProjects/OpenGL/lab4.cpp || cmake_object_order_depends_target_OpenGL
+  DEP_FILE = CMakeFiles/OpenGL.dir/lab4.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu++17
+  INCLUDES = -I/Users/maksim/CLionProjects/OpenGL/include -I/opt/homebrew/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/GLUT.framework/Headers
+  OBJECT_DIR = CMakeFiles/OpenGL.dir
+  OBJECT_FILE_DIR = CMakeFiles/OpenGL.dir
+
+build CMakeFiles/OpenGL.dir/rgr.cpp.o: CXX_COMPILER__OpenGL_Debug /Users/maksim/CLionProjects/OpenGL/rgr.cpp || cmake_object_order_depends_target_OpenGL
+  DEP_FILE = CMakeFiles/OpenGL.dir/rgr.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu++17
+  INCLUDES = -I/Users/maksim/CLionProjects/OpenGL/include -I/opt/homebrew/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/GLUT.framework/Headers
+  OBJECT_DIR = CMakeFiles/OpenGL.dir
+  OBJECT_FILE_DIR = CMakeFiles/OpenGL.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target OpenGL
@@ -78,7 +92,7 @@ build CMakeFiles/OpenGL.dir/lab3.cpp.o: CXX_COMPILER__OpenGL_Debug /Users/maksim
 #############################################
 # Link the executable OpenGL
 
-build OpenGL: CXX_EXECUTABLE_LINKER__OpenGL_Debug CMakeFiles/OpenGL.dir/lab1.cpp.o CMakeFiles/OpenGL.dir/lab2.cpp.o CMakeFiles/OpenGL.dir/lab3.cpp.o
+build OpenGL: CXX_EXECUTABLE_LINKER__OpenGL_Debug CMakeFiles/OpenGL.dir/lab1.cpp.o CMakeFiles/OpenGL.dir/lab2.cpp.o CMakeFiles/OpenGL.dir/lab3.cpp.o CMakeFiles/OpenGL.dir/lab4.cpp.o CMakeFiles/OpenGL.dir/rgr.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
   LINK_LIBRARIES = -Wl,-rpath,/opt/homebrew/lib  -Xlinker -framework -Xlinker OpenGL  -Xlinker -framework -Xlinker OpenGL  -Xlinker -framework -Xlinker GLUT  -Xlinker -framework -Xlinker Cocoa
   LINK_PATH = -L/opt/homebrew/lib
